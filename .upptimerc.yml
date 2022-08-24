@@ -3,16 +3,16 @@ owner: AnotiaWang # Your GitHub organization or username, where this repository 
 repo: uptime # The name of this repository
 
 sites:
-  - name: "服务器"
+  - name: "Server"
     check: "tcp-ping"
     url: $SERVER_IP
-  - name: "博客"
+  - name: "Blog"
     url: https://blog.ataw.top
-  - name: "域名首页"
+  - name: "Root Domain"
     url: https://www.ataw.top
-  - name: "阿里云盘资源站"
+  - name: "AliYunPan Resources"
     url: https://ar.ataw.top
-  - name: "Animenz 曲谱网"
+  - name: "Animenz Sheets"
     url: https://animenz.ataw.top
 
 # Assignees to be mentioned when an issue is created
@@ -39,7 +39,7 @@ status-website:
 # See https://upptime.js.org/docs/configuration
 
 i18n:
-  activeIncidents: 活跃事件
+  activeIncidents: 进行中事件
   allSystemsOperational: 一切正常 | All Operational
   incidentReport: "事件报告 #$NUMBER →"
   activeIncidentSummary: 创建于 $DATE，$POSTS 条消息
@@ -54,13 +54,13 @@ i18n:
   incidentBack: 返回事件列表
   pastIncidents: 历史事件
   pastIncidentsResolved: 解决用时 $MINUTES 分钟，共 $POSTS 条信息
-  liveStatus: 活跃状况
-  overallUptime: "总在线时间 $UPTIME"
-  overallUptimeTitle: 总在线时间
-  averageResponseTime: "平均响应时间 $TIMEms"
-  averageResponseTimeTitle: 平均响应时间
-  sevelDayResponseTime: 7 天内响应时间
-  responseTimeMs: 响应时间 (ms)
+  liveStatus: 实时状况
+  overallUptime: "总在线时间占比 $UPTIME"
+  overallUptimeTitle: 总在线时间占比
+  averageResponseTime: "平均响应用时 $TIMEms"
+  averageResponseTimeTitle: 平均响应用时
+  sevelDayResponseTime: 最近 7 天响应用时
+  responseTimeMs: 响应用时 (ms)
   up: 在线
   down: 离线
   degraded: 可用性降低
@@ -68,7 +68,7 @@ i18n:
   loading: 加载中
   navGitHub: GitHub
   footer: Powered by Upptime，由 [AnotiaWang](https://ataw.top) 翻译及部署。
-  rateLimitExceededTitle: 触发限流
+  rateLimitExceededTitle: 请求过于频繁
   rateLimitExceededIntro: 您在最近一个小时内请求此站点的次数过多，请稍后再试。
   rateLimitExceededWhatDoesErrorMean: 这是什么意思？
   rateLimitExceededErrorMeaning: 此站点使用 GitHub API 处理数据。默认情况下，GitHub 允许每个 IP 在每小时内访问最多 60 次。
