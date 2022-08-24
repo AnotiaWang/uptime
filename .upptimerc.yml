@@ -3,16 +3,16 @@ owner: AnotiaWang # Your GitHub organization or username, where this repository 
 repo: uptime # The name of this repository
 
 sites:
-  - name: Server
+  - name: "服务器"
     check: "tcp-ping"
-    url: 45.151.132.126
-  - name: Blog
+    url: $SERVER_IP
+  - name: "博客"
     url: https://blog.ataw.top
-  - name: Root Domain
+  - name: "域名首页"
     url: https://www.ataw.top
-  - name: AliYunPan Resources
+  - name: "阿里云盘资源站"
     url: https://ar.ataw.top
-  - name: Animenz Sheets
+  - name: "Animenz 曲谱网"
     url: https://animenz.ataw.top
 
 # Assignees to be mentioned when an issue is created
@@ -40,7 +40,7 @@ status-website:
 
 i18n:
   activeIncidents: 活跃事件
-  allSystemsOperational: 一切状态正常 | All operational
+  allSystemsOperational: 一切正常 | All Operational
   incidentReport: "事件报告 #$NUMBER →"
   activeIncidentSummary: 创建于 $DATE，$POSTS 条消息
   incidentTitle: 事件 $NUMBER 详情
