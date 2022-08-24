@@ -3,6 +3,9 @@ owner: AnotiaWang # Your GitHub organization or username, where this repository 
 repo: uptime # The name of this repository
 
 sites:
+  - name: 服务器
+    check: "tcp-ping"
+    url: 45.151.132.126
   - name: 博客
     url: https://blog.ataw.top
   - name: 域名根页面
@@ -12,10 +15,15 @@ sites:
   - name: Animenz 曲谱网
     url: https://animenz.ataw.top
 
+# Assignees to be mentioned when an issue is created
+assignees:
+  - AnotiaWang
+
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.ataw.top
+  theme: ocean
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Anotia 网页服务监控
@@ -31,3 +39,60 @@ status-website:
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+
+i18n:
+  activeIncidents: 活跃事件
+  allSystemsOperational: 所有系统状态正常
+  incidentReport: "Incident #$NUMBER report →"
+  activeIncidentSummary: Opened at $DATE with $POSTS posts
+  incidentTitle: Incident $NUMBER Details
+  incidentDetails: 事件详情
+  incidentFixed: 已修复
+  incidentOngoing: 修复中
+  incidentOpenedAt: 发生于
+  incidentClosedAt: 解决于
+  incidentViewOnGitHub: 在 GitHub 上查看
+  incidentCommentSummary: 由 $AUTHOR 于 $DATE 创建
+  incidentBack: 返回事件列表
+  pastIncidents: 历史事件
+  pastIncidentsResolved: 解决用时 $MINUTES 分钟，共 $POSTS 条信息
+  liveStatus: 活跃状况
+  overallUptime: "总在线时间 $UPTIME"
+  overallUptimeTitle: 总在线时间
+  averageResponseTime: "平均响应时间 $TIMEms"
+  averageResponseTimeTitle: 平均响应时间
+  sevelDayResponseTime: 7 天内响应时间
+  responseTimeMs: 响应时间 (ms)
+  up: 在线
+  down: 离线
+  degraded: 可用性降低
+  ms: ms
+  loading: 加载中
+  navGitHub: GitHub
+  footer: Powered by Upptime，由 [AnotiaWang](https://ataw.top) 翻译及部署。
+  rateLimitExceededTitle: 触发限流
+  rateLimitExceededIntro: 您在最近一个小时内请求此站点的次数过多，请稍后再试。
+  rateLimitExceededWhatDoesErrorMean: 这是什么意思？
+  rateLimitExceededErrorMeaning: 此站点使用 GitHub API 处理数据。默认情况下，GitHub 允许每个 IP 在每小时内访问最多 60 次。
+  rateLimitExceededErrorHowCanFix: 如何解决？
+  rateLimitExceededErrorFix: 您可以等待一个小时，那时您的访问配额应该会恢复。您也可以添加 Personal Access Token，以额外获得 5000 次访问/小时。
+  rateLimitExceededGeneratePAT: 查看如何创建 PAT
+  rateLimitExceededHasSet: 您已经设置了 Personal Access Token 。
+  rateLimitExceededRemoveToken: 移除 Token
+  rateLimitExceededGitHubPAT: GitHub Personal Access Token
+  rateLimitExceededCopyPastePAT: 复制并粘贴您的 Token
+  rateLimitExceededSaveToken: 保存
+  errorTitle: 出错了
+  errorIntro: 在获取最新的服务情况时出错了。
+  errorText: 您可以稍后再试。
+  errorHome: 返回主页
+  pastScheduledMaintenance: 维护历史记录
+  scheduledMaintenance: 计划中的服务维护
+  scheduledMaintenanceSummaryStarted: 开始于 $DATE，持续时长 $DURATION 分钟
+  scheduledMaintenanceSummaryStarts: 开始于 $DATE，持续时长 $DURATION 分钟
+  startedAt: 开始于
+  startsAt: 开始于
+  duration: 时长
+  durationMin: $DURATION 分钟
+  incidentCompleted: 已完成
+  incidentScheduled: 计划中
