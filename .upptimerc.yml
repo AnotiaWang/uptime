@@ -26,16 +26,16 @@ status-website:
   theme: ocean
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Anotia 网页服务监控
-  introTitle: "基于 Upptime.js 的自动化服务监控"
-  introMessage: 此页面展示 Anotia 的网页服务在线状况。
+  name: 服务在线情况监控
+  introTitle: "Anotia 的服务在线情况"
+  introMessage: 用于定时检查服务在线状态，在状态异常时进行预警。
   navbar:
-    - title: Status
+    - title: 状态
       href: /
+    - title: 博客
+      href: https://blog.ataw.top
     - title: GitHub
       href: https://github.com/AnotiaWang
-    - title: Blog
-      href: https://blog.ataw.top
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
@@ -43,9 +43,9 @@ status-website:
 i18n:
   activeIncidents: 活跃事件
   allSystemsOperational: 所有系统状态正常
-  incidentReport: "Incident #$NUMBER report →"
-  activeIncidentSummary: Opened at $DATE with $POSTS posts
-  incidentTitle: Incident $NUMBER Details
+  incidentReport: "事件报告 #$NUMBER →"
+  activeIncidentSummary: 创建于 $DATE，$POSTS 条消息
+  incidentTitle: 事件 $NUMBER 详情
   incidentDetails: 事件详情
   incidentFixed: 已修复
   incidentOngoing: 修复中
