@@ -6,14 +6,25 @@ sites:
   - name: "Server"
     check: "tcp-ping"
     url: $SERVER_IP
-  - name: "Blog"
-    url: https://blog.ataw.top
+    slug: "服务器"
   - name: "Root Domain"
     url: https://www.ataw.top
+    slug: "根域名"
+  - name: "Blog"
+    url: https://blog.ataw.top
+    slug: "博客"
+  - name: "Cloud Drive"
+    url: https://drive.ataw.top
+    slug: "网盘"
   - name: "AliYunPan Resources"
     url: https://ar.ataw.top
+    slug: "阿里云盘资源站"
   - name: "Animenz Sheets"
     url: https://animenz.ataw.top
+    slug: "Animenz 曲谱网"
+  - name: "Magnet Console"
+    url: $QBITTORRENT_URL
+    slug: "Magnet 管理后台"
 
 # Assignees to be mentioned when an issue is created
 assignees:
