@@ -3,28 +3,28 @@ owner: AnotiaWang # Your GitHub organization or username, where this repository 
 repo: uptime # The name of this repository
 
 sites:
-  - name: "Server"
+  - name: "服务器"
     check: "tcp-ping"
     url: $SERVER_IP
-    slug: "服务器"
-  - name: "Root Domain"
+    slug: "server"
+  - name: "根域名"
     url: https://www.ataw.top
-    slug: "根域名"
-  - name: "Blog"
+    slug: "root-domain"
+  - name: "博客"
     url: https://blog.ataw.top
-    slug: "博客"
-  - name: "Cloud Drive"
+    slug: "blog"
+  - name: "网盘"
     url: https://drive.ataw.top
-    slug: "网盘"
-  - name: "AliYunPan Resources"
+    slug: "cloud-drive"
+  - name: "阿里云盘资源站"
     url: https://ar.ataw.top
-    slug: "阿里云盘资源站"
-  - name: "Animenz Sheets"
+    slug: "aliyundrive-resources"
+  - name: "Animenz 曲谱网"
     url: https://animenz.ataw.top
-    slug: "Animenz 曲谱网"
-  - name: "Magnet Console"
+    slug: "animenz-sheets"
+  - name: "Magnet 管理后台"
     url: $QBITTORRENT_URL
-    slug: "Magnet 管理后台"
+    slug: "magnet-console"
 
 # Assignees to be mentioned when an issue is created
 assignees:
