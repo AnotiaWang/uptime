@@ -29,6 +29,15 @@ sites:
 # Assignees to be mentioned when an issue is created
 assignees:
   - AnotiaWang
+  
+workflowSchedule:
+  graphs: "55 23 * * *"
+  responseTime: "55 23 * * *"
+  staticSite: "*/30 * * * *"
+  summary: "55 23 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -66,8 +75,8 @@ i18n:
   pastIncidents: 历史事件
   pastIncidentsResolved: 解决用时 $MINUTES 分钟，共 $POSTS 条信息
   liveStatus: 实时状况
-  overallUptime: "总在线时间占比 $UPTIME"
-  overallUptimeTitle: 总在线时间占比
+  overallUptime: "在线时间占比 $UPTIME"
+  overallUptimeTitle: 在线时间占比
   averageResponseTime: "平均响应用时 $TIMEms"
   averageResponseTimeTitle: 平均响应用时
   sevelDayResponseTime: 最近 7 天响应用时
