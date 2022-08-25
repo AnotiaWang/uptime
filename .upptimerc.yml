@@ -6,32 +6,32 @@ sites:
   - name: "服务器"
     check: "tcp-ping"
     url: $SERVER_IP
-    slug: "server"
+    slug: "Server"
   - name: "根域名"
     url: https://www.ataw.top
-    slug: "root-domain"
+    slug: "RootDomain"
   - name: "博客"
     url: https://blog.ataw.top
-    slug: "blog"
+    slug: "Blog"
   - name: "网盘"
     url: https://drive.ataw.top
-    slug: "cloud-drive"
+    slug: "CloudDrive"
   - name: "阿里云盘资源站"
     url: https://ar.ataw.top
-    slug: "aliyundrive-resources"
+    slug: "AliyundriveResources"
   - name: "Animenz 曲谱网"
     url: https://animenz.ataw.top
-    slug: "animenz-sheets"
+    slug: "AnimenzSheets"
   - name: "Magnet 管理后台"
     url: $QBITTORRENT_URL
-    slug: "magnet-console"
+    slug: "MagnetConsole"
 
 # Assignees to be mentioned when an issue is created
 assignees:
   - AnotiaWang
   
 workflowSchedule:
-  graphs: "55 23 * * *"
+  graphs: "*/30 * * * *"
   responseTime: "55 23 * * *"
   staticSite: "*/30 * * * *"
   summary: "55 23 * * *"
