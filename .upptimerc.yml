@@ -16,6 +16,9 @@ sites:
   - name: "网盘"
     url: https://drive.ataw.top
     slug: "CloudDrive"
+  - name: "阿里云盘资源 Bot"
+    url: $ALIBOT_WEBHOOK_URL
+    slug: "AliBot"
   - name: "阿里云盘资源站"
     url: https://ar.ataw.top
     slug: "AliyundriveResources"
