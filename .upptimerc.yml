@@ -6,39 +6,39 @@ sites:
   - name: "服务器"
     check: "tcp-ping"
     url: $SERVER_IP
-    slug: "Server"
+    slug: "server"
   - name: "根域名"
     url: https://www.ataw.top
-    slug: "RootDomain"
+    slug: "root-domain"
   - name: "博客"
     url: https://blog.ataw.top
-    slug: "Blog"
+    slug: "blog"
   - name: "网盘"
     url: https://drive.ataw.top
-    slug: "CloudDrive"
+    slug: "cloud-drive"
   - name: "阿里云盘资源 Bot"
     url: $ALIBOT_WEBHOOK_URL
-    slug: "AliBot"
+    slug: "alibot"
   - name: "阿里云盘资源站"
     url: https://ar.ataw.top
-    slug: "AliyundriveResources"
+    slug: "aliyundrive-resources"
   - name: "Animenz 曲谱网"
     url: https://animenz.ataw.top
-    slug: "AnimenzSheets"
+    slug: "animenz-sheets"
   - name: "Magnet 管理后台"
     url: $QBITTORRENT_URL
-    slug: "MagnetConsole"
+    slug: "magnet-console"
 
 # Assignees to be mentioned when an issue is created
 assignees:
   - AnotiaWang
   
 workflowSchedule:
-  graphs: "*/30 * * * *"
-  responseTime: "55 23 * * *"
-  staticSite: "*/30 * * * *"
-  summary: "55 23 * * *"
-  updateTemplate: "0 0 * * *"
+  graphs: "0 6 * * *"
+  responseTime: "0 6 * * *"
+  staticSite: "0 0 * * 1"
+  summary: "5 6 * * *"
+  updateTemplate: "0 0 * * 1"
   updates: "0 3 * * *"
   uptime: "*/5 * * * *"
 
@@ -49,9 +49,9 @@ status-website:
   theme: ocean
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: 服务在线状况监控
+  name: 服务在线状况
   introTitle: "Anotia 的服务在线状况"
-  introMessage: 用于定时检查服务在线状态，在状态异常时进行预警。
+  introMessage: 定时检查服务在线状态，在出现异常时进行通知。每 5 分钟静默检查一次，每天更新一次本页数据。
   navbar:
     - title: 博客
       href: https://blog.ataw.top
@@ -63,7 +63,7 @@ status-website:
 
 i18n:
   activeIncidents: 进行中事件
-  allSystemsOperational: 一切正常 | All Operational
+  allSystemsOperational: 一切正常 All Operational
   incidentReport: "事件报告 #$NUMBER →"
   activeIncidentSummary: 创建于 $DATE，$POSTS 条消息
   incidentTitle: 事件 $NUMBER 详情
