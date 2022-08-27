@@ -95,9 +95,9 @@ i18n:
   rateLimitExceededGitHubPAT: GitHub Personal Access Token
   rateLimitExceededCopyPastePAT: 复制并粘贴您的 Token
   rateLimitExceededSaveToken: 保存
-  errorTitle: 出错了
-  errorIntro: 在获取最新的服务情况时出错了。
-  errorText: 您可以稍后再试。
+  errorTitle: 获取数据失败
+  errorIntro: 这可能是因为 GitHub 在国内访问的情况通常不太好。
+  errorText: 请确认您的网络可以顺畅访问 GitHub 及其 API。如果您确认网络正常，可以稍后再试；若问题持续出现，请联系 [admin@ataw.top](mailto:admin@ataw.top)
   errorHome: 返回主页
   pastScheduledMaintenance: 维护历史记录
   scheduledMaintenance: 计划中的服务维护
