@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 621,
-    "timeDay": 560,
+    "time": 616,
+    "timeDay": 532,
     "timeWeek": 535,
-    "timeMonth": 621,
-    "timeYear": 621,
+    "timeMonth": 616,
+    "timeYear": 616,
     "dailyMinutesDown": {}
   },
   {
@@ -46,11 +46,11 @@
     "uptimeWeek": "99.90%",
     "uptimeMonth": "99.90%",
     "uptimeYear": "99.90%",
-    "time": 1071,
-    "timeDay": 689,
-    "timeWeek": 1154,
-    "timeMonth": 1071,
-    "timeYear": 1071,
+    "time": 1042,
+    "timeDay": 498,
+    "timeWeek": 1100,
+    "timeMonth": 1042,
+    "timeYear": 1042,
     "dailyMinutesDown": {
       "2022-09-01": 9
     }
@@ -61,16 +61,16 @@
     "icon": "https://favicons.githubusercontent.com/drive.ataw.top",
     "slug": "ata-drive",
     "status": "up",
-    "uptime": "99.90%",
+    "uptime": "99.91%",
     "uptimeDay": "99.39%",
-    "uptimeWeek": "99.90%",
-    "uptimeMonth": "99.90%",
-    "uptimeYear": "99.90%",
-    "time": 667,
-    "timeDay": 395,
-    "timeWeek": 667,
-    "timeMonth": 667,
-    "timeYear": 667,
+    "uptimeWeek": "99.91%",
+    "uptimeMonth": "99.91%",
+    "uptimeYear": "99.91%",
+    "time": 649,
+    "timeDay": 378,
+    "timeWeek": 649,
+    "timeMonth": 649,
+    "timeYear": 649,
     "dailyMinutesDown": {
       "2022-09-01": 9
     }
@@ -86,11 +86,11 @@
     "uptimeWeek": "99.91%",
     "uptimeMonth": "99.91%",
     "uptimeYear": "99.91%",
-    "time": 611,
-    "timeDay": 399,
-    "timeWeek": 611,
-    "timeMonth": 611,
-    "timeYear": 611,
+    "time": 603,
+    "timeDay": 402,
+    "timeWeek": 603,
+    "timeMonth": 603,
+    "timeYear": 603,
     "dailyMinutesDown": {
       "2022-09-01": 8
     }
@@ -106,11 +106,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 632,
-    "timeDay": 557,
-    "timeWeek": 680,
-    "timeMonth": 632,
-    "timeYear": 632,
+    "time": 626,
+    "timeDay": 550,
+    "timeWeek": 667,
+    "timeMonth": 626,
+    "timeYear": 626,
     "dailyMinutesDown": {}
   },
   {
@@ -124,11 +124,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 424,
-    "timeDay": 543,
-    "timeWeek": 443,
-    "timeMonth": 424,
-    "timeYear": 424,
+    "time": 432,
+    "timeDay": 555,
+    "timeWeek": 454,
+    "timeMonth": 432,
+    "timeYear": 432,
     "dailyMinutesDown": {}
   },
   {
@@ -142,11 +142,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 391,
-    "timeDay": 472,
-    "timeWeek": 424,
-    "timeMonth": 391,
-    "timeYear": 391,
+    "time": 379,
+    "timeDay": 237,
+    "timeWeek": 405,
+    "timeMonth": 379,
+    "timeYear": 379,
     "dailyMinutesDown": {}
   }
 ]
