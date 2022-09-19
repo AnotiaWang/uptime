@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 58,
-    "timeDay": 82,
-    "timeWeek": 73,
-    "timeMonth": 58,
-    "timeYear": 58,
+    "time": 57,
+    "timeDay": 22,
+    "timeWeek": 64,
+    "timeMonth": 57,
+    "timeYear": 57,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 631,
-    "timeDay": 511,
-    "timeWeek": 498,
-    "timeMonth": 631,
-    "timeYear": 631,
+    "time": 620,
+    "timeDay": 278,
+    "timeWeek": 450,
+    "timeMonth": 620,
+    "timeYear": 620,
     "dailyMinutesDown": {}
   },
   {
@@ -46,11 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.97%",
     "uptimeYear": "99.97%",
-    "time": 986,
-    "timeDay": 733,
-    "timeWeek": 1261,
-    "timeMonth": 986,
-    "timeYear": 986,
+    "time": 963,
+    "timeDay": 195,
+    "timeWeek": 625,
+    "timeMonth": 963,
+    "timeYear": 963,
     "dailyMinutesDown": {
       "2022-09-01": 9
     }
@@ -66,11 +66,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.97%",
     "uptimeYear": "99.97%",
-    "time": 728,
-    "timeDay": 589,
-    "timeWeek": 600,
-    "timeMonth": 728,
-    "timeYear": 728,
+    "time": 710,
+    "timeDay": 234,
+    "timeWeek": 520,
+    "timeMonth": 710,
+    "timeYear": 710,
     "dailyMinutesDown": {
       "2022-09-01": 9
     }
@@ -81,16 +81,16 @@
     "icon": "https://favicons.githubusercontent.com/null",
     "slug": "ali-yun-pan-bot",
     "status": "up",
-    "uptime": "99.97%",
+    "uptime": "99.98%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.97%",
-    "uptimeYear": "99.97%",
-    "time": 815,
-    "timeDay": 633,
-    "timeWeek": 1105,
-    "timeMonth": 815,
-    "timeYear": 815,
+    "uptimeMonth": "99.98%",
+    "uptimeYear": "99.98%",
+    "time": 797,
+    "timeDay": 316,
+    "timeWeek": 1045,
+    "timeMonth": 797,
+    "timeYear": 797,
     "dailyMinutesDown": {
       "2022-09-01": 8
     }
@@ -106,11 +106,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 569,
-    "timeDay": 694,
-    "timeWeek": 618,
-    "timeMonth": 569,
-    "timeYear": 569,
+    "time": 553,
+    "timeDay": 104,
+    "timeWeek": 524,
+    "timeMonth": 553,
+    "timeYear": 553,
     "dailyMinutesDown": {}
   },
   {
@@ -124,11 +124,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 479,
-    "timeDay": 713,
-    "timeWeek": 609,
-    "timeMonth": 479,
-    "timeYear": 479,
+    "time": 468,
+    "timeDay": 95,
+    "timeWeek": 514,
+    "timeMonth": 468,
+    "timeYear": 468,
     "dailyMinutesDown": {}
   },
   {
@@ -142,11 +142,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 556,
-    "timeDay": 599,
-    "timeWeek": 515,
-    "timeMonth": 556,
-    "timeYear": 556,
+    "time": 540,
+    "timeDay": 75,
+    "timeWeek": 437,
+    "timeMonth": 540,
+    "timeYear": 540,
     "dailyMinutesDown": {}
   }
 ]
