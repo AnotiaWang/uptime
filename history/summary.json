@@ -22,9 +22,9 @@
     "url": "https://www.ataw.top",
     "icon": "https://icons.duckduckgo.com/ip3/www.ataw.top.ico",
     "slug": "root-domain",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -33,7 +33,9 @@
     "timeWeek": 497,
     "timeMonth": 729,
     "timeYear": 680,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-10-17": 0
+    }
   },
   {
     "name": "Blog",
@@ -137,11 +139,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "magnet-console",
     "status": "up",
-    "uptime": "80.88%",
+    "uptime": "81.11%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "67.48%",
-    "uptimeYear": "80.88%",
+    "uptimeYear": "81.11%",
     "time": 834,
     "timeDay": 783,
     "timeWeek": 477,
