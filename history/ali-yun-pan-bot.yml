@@ -1,7 +1,7 @@
 url: $ALIBOT_WEBHOOK_URL
 status: up
 code: 200
-responseTime: 341
-lastUpdated: 2023-03-31T06:12:23.504Z
+responseTime: 330
+lastUpdated: 2023-04-01T06:10:40.253Z
 startTime: Fri Aug 26 2022 13:53:39 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
